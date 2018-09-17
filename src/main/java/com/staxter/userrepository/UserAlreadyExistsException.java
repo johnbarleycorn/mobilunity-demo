@@ -12,8 +12,6 @@ public class UserAlreadyExistsException extends Exception {
 
 	public UserAlreadyExistsException(String message) {
 		super(message);
-		Set<Integer> set1 = new HashSet(Arrays.asList(new int[] {1,2,3}));
-		set1.removeAll(Arrays.asList(new int[] {1}));
 	}
 
-}i
+}
